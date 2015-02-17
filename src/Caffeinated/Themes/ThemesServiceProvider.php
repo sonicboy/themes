@@ -32,7 +32,7 @@ class ThemesServiceProvider extends ServiceProvider {
 	public function register()
 	{
 		$this->mergeConfigFrom(
-		    __DIR__.'/../../config/themes.php', 'caffeinated.themes'
+		    __DIR__.'/../../config/themes.php', 'themes'
 		);
 
 		$this->registerServices();
